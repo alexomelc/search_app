@@ -1,0 +1,117 @@
+%panel-settings {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  border: 2px solid #808080;
+  height: 25rem;
+  overflow-y: scroll;
+  padding: 2rem;
+}
+
+$elements-margin: .5rem;
+$background-grey: #F6F6F6;
+$dark-grey: #808080;
+$border-radius: 5rem;
+
+.App {
+  width: 80%;
+  height: 25rem;
+  margin: 2rem auto;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    background: #F5F5F5;
+    padding: 2rem;
+
+  .SearchPanel {
+    width: 25%;
+    @extend %panel-settings;
+    border-right: 0;
+
+    .SearchSelector {
+      background: $background-grey;
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      border: 2px solid $dark-grey;
+      margin-right: .5rem;
+      border-radius: $border-radius;
+      vertical-align: middle;
+      position: relative;
+
+      &.active {
+        &:before {
+          content: '';
+          display: inline-block;
+          width: .5rem;
+          height: .5rem;
+          position: absolute;
+          background: $dark-grey;
+          top: 24%;
+          left: 22%;
+          border-radius: $border-radius;
+        }
+
+      }
+    }
+
+    .SearchInput,
+    .SearchAllResult,
+    .SearchTag  {
+      margin-bottom: $elements-margin;
+      height: 1.5rem;
+      position: relative;
+
+      input {
+        background: $background-grey;
+        border: 1px solid black;
+        border-radius: $border-radius;
+        height: 1.3rem;
+        padding-left: 1.5rem;
+      }
+
+      .SearchIcon {
+        display: inline-block;
+        background: url("./assets/icon-navigation-search-grey.svg") no-repeat;
+        background-size: 1rem;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: .3rem;
+        left: 2.1rem;
+      }
+    }
+  }
+
+  .ResultPanel {
+    width: 75%;
+    @extend %panel-settings;
+
+    .ResultItem {
+      display: inline-block;
+      width: 50%;
+      margin-bottom: $elements-margin;
+    }
+
+    .ResultTitle {
+      font-weight: bold;
+      font-size: 1.5rem;
+      position: relative;
+
+      &:before {
+        content: '•';
+        position: absolute;
+        left: -1rem;
+      }
+    }
+    .ResultTag {
+      font-size: .8rem;
+    }
+  }
+}

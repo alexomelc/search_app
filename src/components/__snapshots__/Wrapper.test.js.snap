@@ -1,0 +1,2719 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartFactory/components/ChartWrapper shoud render wrapper with panel 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Wrapper />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SearchPanel
+          changeActiveStatus={[Function]}
+          isActiveSearchStatus={[Function]}
+          searchByInput={[Function]}
+          searchByTag={[Function]}
+          showAll={[Function]}
+          tagsArray={
+            Array [
+              "ad-network",
+              "analytics",
+              "backend",
+              "commerce",
+              "development-tool",
+              "game-engine",
+              "marketing-automation",
+              "social",
+            ]
+          }
+        />,
+        <ResultPanel
+          filteredData={
+            Array [
+              Object {
+                "id": "accengage",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Accengage",
+              },
+              Object {
+                "id": "adbuddiz",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdBuddiz",
+              },
+              Object {
+                "id": "adcolony",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdColony",
+              },
+              Object {
+                "id": "adjust",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Adjust",
+              },
+              Object {
+                "id": "admarvel",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdMarvel",
+              },
+              Object {
+                "id": "admob",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdMob",
+              },
+              Object {
+                "id": "adobe-audience-manager",
+                "tags": Array [
+                  "analytics",
+                  "marketing-automation",
+                ],
+                "title": "Adobe Audience Manager",
+              },
+              Object {
+                "id": "adobe-marketing-cloud",
+                "tags": Array [
+                  "analytics",
+                  "marketing-automation",
+                ],
+                "title": "Adobe Marketing Cloud",
+              },
+              Object {
+                "id": "aerserv",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AerServ",
+              },
+              Object {
+                "id": "airpush",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AirPush",
+              },
+              Object {
+                "id": "amazon-aws",
+                "tags": Array [
+                  "backend",
+                ],
+                "title": "Amazon AWS",
+              },
+              Object {
+                "id": "amazon-mobile-ads",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Amazon Mobile Ads",
+              },
+              Object {
+                "id": "andengine",
+                "tags": Array [
+                  "game-engine",
+                ],
+                "title": "AndEngine",
+              },
+              Object {
+                "id": "appboy",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Appboy",
+              },
+              Object {
+                "id": "appbrain",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppBrain",
+              },
+              Object {
+                "id": "appcelerator-titanium",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Appcelerator Titanium",
+              },
+              Object {
+                "id": "applift-playads",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppLift PlayAds",
+              },
+              Object {
+                "id": "applovin",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppLovin",
+              },
+              Object {
+                "id": "appmk",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "AppMK",
+              },
+              Object {
+                "id": "appnext",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppNext",
+              },
+              Object {
+                "id": "appodeal",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Appodeal",
+              },
+              Object {
+                "id": "appsflyer",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "AppsFlyer",
+              },
+              Object {
+                "id": "aurasma",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Aurasma",
+              },
+              Object {
+                "id": "avocarrot",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Avocarrot",
+              },
+              Object {
+                "id": "bee7",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Bee7",
+              },
+              Object {
+                "id": "bolts",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Bolts",
+              },
+              Object {
+                "id": "card-io",
+                "tags": Array [
+                  "commerce",
+                ],
+                "title": "card.io",
+              },
+              Object {
+                "id": "chartboost",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Chartboost",
+              },
+              Object {
+                "id": "cocos2d-x",
+                "tags": Array [
+                  "game-engine",
+                ],
+                "title": "Cocos2D-X",
+              },
+              Object {
+                "id": "comscore-analytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Comscore Analytics",
+              },
+              Object {
+                "id": "cordova",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Cordova",
+              },
+              Object {
+                "id": "fabric",
+                "tags": Array [
+                  "development-tool",
+                  "social",
+                ],
+                "title": "Fabric",
+              },
+              Object {
+                "id": "fabric-answers",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Fabric Answers",
+              },
+              Object {
+                "id": "fabric-appsee",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Fabric Appsee",
+              },
+              Object {
+                "id": "fabric-crashlytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Fabric Crashlytics",
+              },
+              Object {
+                "id": "facebook",
+                "tags": Array [
+                  "social",
+                ],
+                "title": "Facebook",
+              },
+              Object {
+                "id": "facebook-audience-network",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Facebook Audience Network",
+              },
+              Object {
+                "id": "firebase",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Firebase",
+              },
+              Object {
+                "id": "firebase-analytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Firebase Analytics",
+              },
+              Object {
+                "id": "flurry",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Flurry",
+              },
+              Object {
+                "id": "fyber",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Fyber",
+              },
+              Object {
+                "id": "glide",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Glide",
+              },
+              Object {
+                "id": "google-analytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Google Analytics",
+              },
+              Object {
+                "id": "google-play-game-services",
+                "tags": Array [
+                  "social",
+                ],
+                "title": "Google Play Game Services",
+              },
+              Object {
+                "id": "google-tag-manager",
+                "tags": Array [
+                  "analytics",
+                  "development-tool",
+                ],
+                "title": "Google Tag Manager",
+              },
+              Object {
+                "id": "google-vr-cardboard",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Google VR Cardboard",
+              },
+              Object {
+                "id": "gson",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "gson",
+              },
+              Object {
+                "id": "heyzap",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Heyzap",
+              },
+              Object {
+                "id": "inmobi",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "InMobi",
+              },
+              Object {
+                "id": "instabug",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Instabug",
+              },
+              Object {
+                "id": "intercom",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Intercom",
+              },
+              Object {
+                "id": "ionic-keyboard",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Ionic Keyboard",
+              },
+              Object {
+                "id": "jsoup",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "jsoup",
+              },
+              Object {
+                "id": "kahuna",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Kahuna",
+              },
+              Object {
+                "id": "keen-io",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Keen IO",
+              },
+              Object {
+                "id": "leadbolt",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "LeadBolt",
+              },
+              Object {
+                "id": "leanplum",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Leanplum",
+              },
+              Object {
+                "id": "localytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Localytics",
+              },
+              Object {
+                "id": "madserve",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "mAdserve",
+              },
+              Object {
+                "id": "metaio",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Metaio",
+              },
+              Object {
+                "id": "millennial-media",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Millennial Media",
+              },
+              Object {
+                "id": "mixpanel",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Mixpanel",
+              },
+              Object {
+                "id": "mobfox",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Mobfox",
+              },
+              Object {
+                "id": "mobilecore",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Mobilecore",
+              },
+              Object {
+                "id": "mopub",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Mopub",
+              },
+              Object {
+                "id": "nend",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Nend",
+              },
+              Object {
+                "id": "paypal",
+                "tags": Array [
+                  "commerce",
+                ],
+                "title": "PayPal",
+              },
+              Object {
+                "id": "picasso",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Picasso",
+              },
+              Object {
+                "id": "pollfish",
+                "tags": Array [],
+                "title": "PollFish",
+              },
+              Object {
+                "id": "pushwoosh",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Pushwoosh",
+              },
+              Object {
+                "id": "qt-project",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Qt project",
+              },
+              Object {
+                "id": "react-native",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "React Native",
+              },
+              Object {
+                "id": "revmob",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "RevMob",
+              },
+              Object {
+                "id": "segment",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Segment",
+              },
+              Object {
+                "id": "smaato",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Smaato",
+              },
+              Object {
+                "id": "startapp",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Startapp",
+              },
+              Object {
+                "id": "stripe",
+                "tags": Array [
+                  "commerce",
+                ],
+                "title": "Stripe",
+              },
+              Object {
+                "id": "swrve",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Swrve",
+              },
+              Object {
+                "id": "tapjoy",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Tapjoy",
+              },
+              Object {
+                "id": "tune",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Tune",
+              },
+              Object {
+                "id": "twitter4j",
+                "tags": Array [
+                  "social",
+                ],
+                "title": "Twitter4J",
+              },
+              Object {
+                "id": "unity-ads",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Unity Ads",
+              },
+              Object {
+                "id": "unity3d",
+                "tags": Array [
+                  "development-tool",
+                  "game-engine",
+                ],
+                "title": "Unity3D",
+              },
+              Object {
+                "id": "urban-airship",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Urban Airship",
+              },
+              Object {
+                "id": "vuforia",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Vuforia",
+              },
+              Object {
+                "id": "vungle",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Vungle",
+              },
+              Object {
+                "id": "wikitude",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Wikitude",
+              },
+              Object {
+                "id": "xamarin-forms",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Xamarin.Forms",
+              },
+              Object {
+                "id": "yandex-metrica",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Yandex Metrica",
+              },
+              Object {
+                "id": "zxing",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "ZXing",
+              },
+            ]
+          }
+        />,
+      ],
+      "className": "Wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "changeActiveStatus": [Function],
+          "isActiveSearchStatus": [Function],
+          "searchByInput": [Function],
+          "searchByTag": [Function],
+          "showAll": [Function],
+          "tagsArray": Array [
+            "ad-network",
+            "analytics",
+            "backend",
+            "commerce",
+            "development-tool",
+            "game-engine",
+            "marketing-automation",
+            "social",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "filteredData": Array [
+            Object {
+              "id": "accengage",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Accengage",
+            },
+            Object {
+              "id": "adbuddiz",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdBuddiz",
+            },
+            Object {
+              "id": "adcolony",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdColony",
+            },
+            Object {
+              "id": "adjust",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Adjust",
+            },
+            Object {
+              "id": "admarvel",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdMarvel",
+            },
+            Object {
+              "id": "admob",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AdMob",
+            },
+            Object {
+              "id": "adobe-audience-manager",
+              "tags": Array [
+                "analytics",
+                "marketing-automation",
+              ],
+              "title": "Adobe Audience Manager",
+            },
+            Object {
+              "id": "adobe-marketing-cloud",
+              "tags": Array [
+                "analytics",
+                "marketing-automation",
+              ],
+              "title": "Adobe Marketing Cloud",
+            },
+            Object {
+              "id": "aerserv",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AerServ",
+            },
+            Object {
+              "id": "airpush",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AirPush",
+            },
+            Object {
+              "id": "amazon-aws",
+              "tags": Array [
+                "backend",
+              ],
+              "title": "Amazon AWS",
+            },
+            Object {
+              "id": "amazon-mobile-ads",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Amazon Mobile Ads",
+            },
+            Object {
+              "id": "andengine",
+              "tags": Array [
+                "game-engine",
+              ],
+              "title": "AndEngine",
+            },
+            Object {
+              "id": "appboy",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Appboy",
+            },
+            Object {
+              "id": "appbrain",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppBrain",
+            },
+            Object {
+              "id": "appcelerator-titanium",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Appcelerator Titanium",
+            },
+            Object {
+              "id": "applift-playads",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppLift PlayAds",
+            },
+            Object {
+              "id": "applovin",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppLovin",
+            },
+            Object {
+              "id": "appmk",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "AppMK",
+            },
+            Object {
+              "id": "appnext",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "AppNext",
+            },
+            Object {
+              "id": "appodeal",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Appodeal",
+            },
+            Object {
+              "id": "appsflyer",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "AppsFlyer",
+            },
+            Object {
+              "id": "aurasma",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Aurasma",
+            },
+            Object {
+              "id": "avocarrot",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Avocarrot",
+            },
+            Object {
+              "id": "bee7",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Bee7",
+            },
+            Object {
+              "id": "bolts",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Bolts",
+            },
+            Object {
+              "id": "card-io",
+              "tags": Array [
+                "commerce",
+              ],
+              "title": "card.io",
+            },
+            Object {
+              "id": "chartboost",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Chartboost",
+            },
+            Object {
+              "id": "cocos2d-x",
+              "tags": Array [
+                "game-engine",
+              ],
+              "title": "Cocos2D-X",
+            },
+            Object {
+              "id": "comscore-analytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Comscore Analytics",
+            },
+            Object {
+              "id": "cordova",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Cordova",
+            },
+            Object {
+              "id": "fabric",
+              "tags": Array [
+                "development-tool",
+                "social",
+              ],
+              "title": "Fabric",
+            },
+            Object {
+              "id": "fabric-answers",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Fabric Answers",
+            },
+            Object {
+              "id": "fabric-appsee",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Fabric Appsee",
+            },
+            Object {
+              "id": "fabric-crashlytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Fabric Crashlytics",
+            },
+            Object {
+              "id": "facebook",
+              "tags": Array [
+                "social",
+              ],
+              "title": "Facebook",
+            },
+            Object {
+              "id": "facebook-audience-network",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Facebook Audience Network",
+            },
+            Object {
+              "id": "firebase",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Firebase",
+            },
+            Object {
+              "id": "firebase-analytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Firebase Analytics",
+            },
+            Object {
+              "id": "flurry",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Flurry",
+            },
+            Object {
+              "id": "fyber",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Fyber",
+            },
+            Object {
+              "id": "glide",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Glide",
+            },
+            Object {
+              "id": "google-analytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Google Analytics",
+            },
+            Object {
+              "id": "google-play-game-services",
+              "tags": Array [
+                "social",
+              ],
+              "title": "Google Play Game Services",
+            },
+            Object {
+              "id": "google-tag-manager",
+              "tags": Array [
+                "analytics",
+                "development-tool",
+              ],
+              "title": "Google Tag Manager",
+            },
+            Object {
+              "id": "google-vr-cardboard",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Google VR Cardboard",
+            },
+            Object {
+              "id": "gson",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "gson",
+            },
+            Object {
+              "id": "heyzap",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Heyzap",
+            },
+            Object {
+              "id": "inmobi",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "InMobi",
+            },
+            Object {
+              "id": "instabug",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Instabug",
+            },
+            Object {
+              "id": "intercom",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Intercom",
+            },
+            Object {
+              "id": "ionic-keyboard",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Ionic Keyboard",
+            },
+            Object {
+              "id": "jsoup",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "jsoup",
+            },
+            Object {
+              "id": "kahuna",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Kahuna",
+            },
+            Object {
+              "id": "keen-io",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Keen IO",
+            },
+            Object {
+              "id": "leadbolt",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "LeadBolt",
+            },
+            Object {
+              "id": "leanplum",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Leanplum",
+            },
+            Object {
+              "id": "localytics",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Localytics",
+            },
+            Object {
+              "id": "madserve",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "mAdserve",
+            },
+            Object {
+              "id": "metaio",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Metaio",
+            },
+            Object {
+              "id": "millennial-media",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Millennial Media",
+            },
+            Object {
+              "id": "mixpanel",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Mixpanel",
+            },
+            Object {
+              "id": "mobfox",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Mobfox",
+            },
+            Object {
+              "id": "mobilecore",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Mobilecore",
+            },
+            Object {
+              "id": "mopub",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Mopub",
+            },
+            Object {
+              "id": "nend",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Nend",
+            },
+            Object {
+              "id": "paypal",
+              "tags": Array [
+                "commerce",
+              ],
+              "title": "PayPal",
+            },
+            Object {
+              "id": "picasso",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Picasso",
+            },
+            Object {
+              "id": "pollfish",
+              "tags": Array [],
+              "title": "PollFish",
+            },
+            Object {
+              "id": "pushwoosh",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Pushwoosh",
+            },
+            Object {
+              "id": "qt-project",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Qt project",
+            },
+            Object {
+              "id": "react-native",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "React Native",
+            },
+            Object {
+              "id": "revmob",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "RevMob",
+            },
+            Object {
+              "id": "segment",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Segment",
+            },
+            Object {
+              "id": "smaato",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Smaato",
+            },
+            Object {
+              "id": "startapp",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Startapp",
+            },
+            Object {
+              "id": "stripe",
+              "tags": Array [
+                "commerce",
+              ],
+              "title": "Stripe",
+            },
+            Object {
+              "id": "swrve",
+              "tags": Array [
+                "marketing-automation",
+              ],
+              "title": "Swrve",
+            },
+            Object {
+              "id": "tapjoy",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Tapjoy",
+            },
+            Object {
+              "id": "tune",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Tune",
+            },
+            Object {
+              "id": "twitter4j",
+              "tags": Array [
+                "social",
+              ],
+              "title": "Twitter4J",
+            },
+            Object {
+              "id": "unity-ads",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Unity Ads",
+            },
+            Object {
+              "id": "unity3d",
+              "tags": Array [
+                "development-tool",
+                "game-engine",
+              ],
+              "title": "Unity3D",
+            },
+            Object {
+              "id": "urban-airship",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Urban Airship",
+            },
+            Object {
+              "id": "vuforia",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Vuforia",
+            },
+            Object {
+              "id": "vungle",
+              "tags": Array [
+                "ad-network",
+              ],
+              "title": "Vungle",
+            },
+            Object {
+              "id": "wikitude",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Wikitude",
+            },
+            Object {
+              "id": "xamarin-forms",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "Xamarin.Forms",
+            },
+            Object {
+              "id": "yandex-metrica",
+              "tags": Array [
+                "analytics",
+              ],
+              "title": "Yandex Metrica",
+            },
+            Object {
+              "id": "zxing",
+              "tags": Array [
+                "development-tool",
+              ],
+              "title": "ZXing",
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SearchPanel
+            changeActiveStatus={[Function]}
+            isActiveSearchStatus={[Function]}
+            searchByInput={[Function]}
+            searchByTag={[Function]}
+            showAll={[Function]}
+            tagsArray={
+              Array [
+                "ad-network",
+                "analytics",
+                "backend",
+                "commerce",
+                "development-tool",
+                "game-engine",
+                "marketing-automation",
+                "social",
+              ]
+            }
+          />,
+          <ResultPanel
+            filteredData={
+              Array [
+                Object {
+                  "id": "accengage",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Accengage",
+                },
+                Object {
+                  "id": "adbuddiz",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AdBuddiz",
+                },
+                Object {
+                  "id": "adcolony",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AdColony",
+                },
+                Object {
+                  "id": "adjust",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Adjust",
+                },
+                Object {
+                  "id": "admarvel",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AdMarvel",
+                },
+                Object {
+                  "id": "admob",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AdMob",
+                },
+                Object {
+                  "id": "adobe-audience-manager",
+                  "tags": Array [
+                    "analytics",
+                    "marketing-automation",
+                  ],
+                  "title": "Adobe Audience Manager",
+                },
+                Object {
+                  "id": "adobe-marketing-cloud",
+                  "tags": Array [
+                    "analytics",
+                    "marketing-automation",
+                  ],
+                  "title": "Adobe Marketing Cloud",
+                },
+                Object {
+                  "id": "aerserv",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AerServ",
+                },
+                Object {
+                  "id": "airpush",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AirPush",
+                },
+                Object {
+                  "id": "amazon-aws",
+                  "tags": Array [
+                    "backend",
+                  ],
+                  "title": "Amazon AWS",
+                },
+                Object {
+                  "id": "amazon-mobile-ads",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Amazon Mobile Ads",
+                },
+                Object {
+                  "id": "andengine",
+                  "tags": Array [
+                    "game-engine",
+                  ],
+                  "title": "AndEngine",
+                },
+                Object {
+                  "id": "appboy",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Appboy",
+                },
+                Object {
+                  "id": "appbrain",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AppBrain",
+                },
+                Object {
+                  "id": "appcelerator-titanium",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Appcelerator Titanium",
+                },
+                Object {
+                  "id": "applift-playads",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AppLift PlayAds",
+                },
+                Object {
+                  "id": "applovin",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AppLovin",
+                },
+                Object {
+                  "id": "appmk",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "AppMK",
+                },
+                Object {
+                  "id": "appnext",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "AppNext",
+                },
+                Object {
+                  "id": "appodeal",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Appodeal",
+                },
+                Object {
+                  "id": "appsflyer",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "AppsFlyer",
+                },
+                Object {
+                  "id": "aurasma",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Aurasma",
+                },
+                Object {
+                  "id": "avocarrot",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Avocarrot",
+                },
+                Object {
+                  "id": "bee7",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Bee7",
+                },
+                Object {
+                  "id": "bolts",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Bolts",
+                },
+                Object {
+                  "id": "card-io",
+                  "tags": Array [
+                    "commerce",
+                  ],
+                  "title": "card.io",
+                },
+                Object {
+                  "id": "chartboost",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Chartboost",
+                },
+                Object {
+                  "id": "cocos2d-x",
+                  "tags": Array [
+                    "game-engine",
+                  ],
+                  "title": "Cocos2D-X",
+                },
+                Object {
+                  "id": "comscore-analytics",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Comscore Analytics",
+                },
+                Object {
+                  "id": "cordova",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Cordova",
+                },
+                Object {
+                  "id": "fabric",
+                  "tags": Array [
+                    "development-tool",
+                    "social",
+                  ],
+                  "title": "Fabric",
+                },
+                Object {
+                  "id": "fabric-answers",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Fabric Answers",
+                },
+                Object {
+                  "id": "fabric-appsee",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Fabric Appsee",
+                },
+                Object {
+                  "id": "fabric-crashlytics",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Fabric Crashlytics",
+                },
+                Object {
+                  "id": "facebook",
+                  "tags": Array [
+                    "social",
+                  ],
+                  "title": "Facebook",
+                },
+                Object {
+                  "id": "facebook-audience-network",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Facebook Audience Network",
+                },
+                Object {
+                  "id": "firebase",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Firebase",
+                },
+                Object {
+                  "id": "firebase-analytics",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Firebase Analytics",
+                },
+                Object {
+                  "id": "flurry",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Flurry",
+                },
+                Object {
+                  "id": "fyber",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Fyber",
+                },
+                Object {
+                  "id": "glide",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Glide",
+                },
+                Object {
+                  "id": "google-analytics",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Google Analytics",
+                },
+                Object {
+                  "id": "google-play-game-services",
+                  "tags": Array [
+                    "social",
+                  ],
+                  "title": "Google Play Game Services",
+                },
+                Object {
+                  "id": "google-tag-manager",
+                  "tags": Array [
+                    "analytics",
+                    "development-tool",
+                  ],
+                  "title": "Google Tag Manager",
+                },
+                Object {
+                  "id": "google-vr-cardboard",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Google VR Cardboard",
+                },
+                Object {
+                  "id": "gson",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "gson",
+                },
+                Object {
+                  "id": "heyzap",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Heyzap",
+                },
+                Object {
+                  "id": "inmobi",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "InMobi",
+                },
+                Object {
+                  "id": "instabug",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Instabug",
+                },
+                Object {
+                  "id": "intercom",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Intercom",
+                },
+                Object {
+                  "id": "ionic-keyboard",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Ionic Keyboard",
+                },
+                Object {
+                  "id": "jsoup",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "jsoup",
+                },
+                Object {
+                  "id": "kahuna",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Kahuna",
+                },
+                Object {
+                  "id": "keen-io",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Keen IO",
+                },
+                Object {
+                  "id": "leadbolt",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "LeadBolt",
+                },
+                Object {
+                  "id": "leanplum",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Leanplum",
+                },
+                Object {
+                  "id": "localytics",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Localytics",
+                },
+                Object {
+                  "id": "madserve",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "mAdserve",
+                },
+                Object {
+                  "id": "metaio",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Metaio",
+                },
+                Object {
+                  "id": "millennial-media",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Millennial Media",
+                },
+                Object {
+                  "id": "mixpanel",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Mixpanel",
+                },
+                Object {
+                  "id": "mobfox",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Mobfox",
+                },
+                Object {
+                  "id": "mobilecore",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Mobilecore",
+                },
+                Object {
+                  "id": "mopub",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Mopub",
+                },
+                Object {
+                  "id": "nend",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Nend",
+                },
+                Object {
+                  "id": "paypal",
+                  "tags": Array [
+                    "commerce",
+                  ],
+                  "title": "PayPal",
+                },
+                Object {
+                  "id": "picasso",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Picasso",
+                },
+                Object {
+                  "id": "pollfish",
+                  "tags": Array [],
+                  "title": "PollFish",
+                },
+                Object {
+                  "id": "pushwoosh",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Pushwoosh",
+                },
+                Object {
+                  "id": "qt-project",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Qt project",
+                },
+                Object {
+                  "id": "react-native",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "React Native",
+                },
+                Object {
+                  "id": "revmob",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "RevMob",
+                },
+                Object {
+                  "id": "segment",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Segment",
+                },
+                Object {
+                  "id": "smaato",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Smaato",
+                },
+                Object {
+                  "id": "startapp",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Startapp",
+                },
+                Object {
+                  "id": "stripe",
+                  "tags": Array [
+                    "commerce",
+                  ],
+                  "title": "Stripe",
+                },
+                Object {
+                  "id": "swrve",
+                  "tags": Array [
+                    "marketing-automation",
+                  ],
+                  "title": "Swrve",
+                },
+                Object {
+                  "id": "tapjoy",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Tapjoy",
+                },
+                Object {
+                  "id": "tune",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Tune",
+                },
+                Object {
+                  "id": "twitter4j",
+                  "tags": Array [
+                    "social",
+                  ],
+                  "title": "Twitter4J",
+                },
+                Object {
+                  "id": "unity-ads",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Unity Ads",
+                },
+                Object {
+                  "id": "unity3d",
+                  "tags": Array [
+                    "development-tool",
+                    "game-engine",
+                  ],
+                  "title": "Unity3D",
+                },
+                Object {
+                  "id": "urban-airship",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Urban Airship",
+                },
+                Object {
+                  "id": "vuforia",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Vuforia",
+                },
+                Object {
+                  "id": "vungle",
+                  "tags": Array [
+                    "ad-network",
+                  ],
+                  "title": "Vungle",
+                },
+                Object {
+                  "id": "wikitude",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Wikitude",
+                },
+                Object {
+                  "id": "xamarin-forms",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "Xamarin.Forms",
+                },
+                Object {
+                  "id": "yandex-metrica",
+                  "tags": Array [
+                    "analytics",
+                  ],
+                  "title": "Yandex Metrica",
+                },
+                Object {
+                  "id": "zxing",
+                  "tags": Array [
+                    "development-tool",
+                  ],
+                  "title": "ZXing",
+                },
+              ]
+            }
+          />,
+        ],
+        "className": "Wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "changeActiveStatus": [Function],
+            "isActiveSearchStatus": [Function],
+            "searchByInput": [Function],
+            "searchByTag": [Function],
+            "showAll": [Function],
+            "tagsArray": Array [
+              "ad-network",
+              "analytics",
+              "backend",
+              "commerce",
+              "development-tool",
+              "game-engine",
+              "marketing-automation",
+              "social",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "filteredData": Array [
+              Object {
+                "id": "accengage",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Accengage",
+              },
+              Object {
+                "id": "adbuddiz",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdBuddiz",
+              },
+              Object {
+                "id": "adcolony",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdColony",
+              },
+              Object {
+                "id": "adjust",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Adjust",
+              },
+              Object {
+                "id": "admarvel",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdMarvel",
+              },
+              Object {
+                "id": "admob",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AdMob",
+              },
+              Object {
+                "id": "adobe-audience-manager",
+                "tags": Array [
+                  "analytics",
+                  "marketing-automation",
+                ],
+                "title": "Adobe Audience Manager",
+              },
+              Object {
+                "id": "adobe-marketing-cloud",
+                "tags": Array [
+                  "analytics",
+                  "marketing-automation",
+                ],
+                "title": "Adobe Marketing Cloud",
+              },
+              Object {
+                "id": "aerserv",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AerServ",
+              },
+              Object {
+                "id": "airpush",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AirPush",
+              },
+              Object {
+                "id": "amazon-aws",
+                "tags": Array [
+                  "backend",
+                ],
+                "title": "Amazon AWS",
+              },
+              Object {
+                "id": "amazon-mobile-ads",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Amazon Mobile Ads",
+              },
+              Object {
+                "id": "andengine",
+                "tags": Array [
+                  "game-engine",
+                ],
+                "title": "AndEngine",
+              },
+              Object {
+                "id": "appboy",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Appboy",
+              },
+              Object {
+                "id": "appbrain",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppBrain",
+              },
+              Object {
+                "id": "appcelerator-titanium",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Appcelerator Titanium",
+              },
+              Object {
+                "id": "applift-playads",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppLift PlayAds",
+              },
+              Object {
+                "id": "applovin",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppLovin",
+              },
+              Object {
+                "id": "appmk",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "AppMK",
+              },
+              Object {
+                "id": "appnext",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "AppNext",
+              },
+              Object {
+                "id": "appodeal",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Appodeal",
+              },
+              Object {
+                "id": "appsflyer",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "AppsFlyer",
+              },
+              Object {
+                "id": "aurasma",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Aurasma",
+              },
+              Object {
+                "id": "avocarrot",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Avocarrot",
+              },
+              Object {
+                "id": "bee7",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Bee7",
+              },
+              Object {
+                "id": "bolts",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Bolts",
+              },
+              Object {
+                "id": "card-io",
+                "tags": Array [
+                  "commerce",
+                ],
+                "title": "card.io",
+              },
+              Object {
+                "id": "chartboost",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Chartboost",
+              },
+              Object {
+                "id": "cocos2d-x",
+                "tags": Array [
+                  "game-engine",
+                ],
+                "title": "Cocos2D-X",
+              },
+              Object {
+                "id": "comscore-analytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Comscore Analytics",
+              },
+              Object {
+                "id": "cordova",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Cordova",
+              },
+              Object {
+                "id": "fabric",
+                "tags": Array [
+                  "development-tool",
+                  "social",
+                ],
+                "title": "Fabric",
+              },
+              Object {
+                "id": "fabric-answers",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Fabric Answers",
+              },
+              Object {
+                "id": "fabric-appsee",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Fabric Appsee",
+              },
+              Object {
+                "id": "fabric-crashlytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Fabric Crashlytics",
+              },
+              Object {
+                "id": "facebook",
+                "tags": Array [
+                  "social",
+                ],
+                "title": "Facebook",
+              },
+              Object {
+                "id": "facebook-audience-network",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Facebook Audience Network",
+              },
+              Object {
+                "id": "firebase",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Firebase",
+              },
+              Object {
+                "id": "firebase-analytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Firebase Analytics",
+              },
+              Object {
+                "id": "flurry",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Flurry",
+              },
+              Object {
+                "id": "fyber",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Fyber",
+              },
+              Object {
+                "id": "glide",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Glide",
+              },
+              Object {
+                "id": "google-analytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Google Analytics",
+              },
+              Object {
+                "id": "google-play-game-services",
+                "tags": Array [
+                  "social",
+                ],
+                "title": "Google Play Game Services",
+              },
+              Object {
+                "id": "google-tag-manager",
+                "tags": Array [
+                  "analytics",
+                  "development-tool",
+                ],
+                "title": "Google Tag Manager",
+              },
+              Object {
+                "id": "google-vr-cardboard",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Google VR Cardboard",
+              },
+              Object {
+                "id": "gson",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "gson",
+              },
+              Object {
+                "id": "heyzap",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Heyzap",
+              },
+              Object {
+                "id": "inmobi",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "InMobi",
+              },
+              Object {
+                "id": "instabug",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Instabug",
+              },
+              Object {
+                "id": "intercom",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Intercom",
+              },
+              Object {
+                "id": "ionic-keyboard",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Ionic Keyboard",
+              },
+              Object {
+                "id": "jsoup",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "jsoup",
+              },
+              Object {
+                "id": "kahuna",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Kahuna",
+              },
+              Object {
+                "id": "keen-io",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Keen IO",
+              },
+              Object {
+                "id": "leadbolt",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "LeadBolt",
+              },
+              Object {
+                "id": "leanplum",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Leanplum",
+              },
+              Object {
+                "id": "localytics",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Localytics",
+              },
+              Object {
+                "id": "madserve",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "mAdserve",
+              },
+              Object {
+                "id": "metaio",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Metaio",
+              },
+              Object {
+                "id": "millennial-media",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Millennial Media",
+              },
+              Object {
+                "id": "mixpanel",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Mixpanel",
+              },
+              Object {
+                "id": "mobfox",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Mobfox",
+              },
+              Object {
+                "id": "mobilecore",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Mobilecore",
+              },
+              Object {
+                "id": "mopub",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Mopub",
+              },
+              Object {
+                "id": "nend",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Nend",
+              },
+              Object {
+                "id": "paypal",
+                "tags": Array [
+                  "commerce",
+                ],
+                "title": "PayPal",
+              },
+              Object {
+                "id": "picasso",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Picasso",
+              },
+              Object {
+                "id": "pollfish",
+                "tags": Array [],
+                "title": "PollFish",
+              },
+              Object {
+                "id": "pushwoosh",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Pushwoosh",
+              },
+              Object {
+                "id": "qt-project",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Qt project",
+              },
+              Object {
+                "id": "react-native",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "React Native",
+              },
+              Object {
+                "id": "revmob",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "RevMob",
+              },
+              Object {
+                "id": "segment",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Segment",
+              },
+              Object {
+                "id": "smaato",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Smaato",
+              },
+              Object {
+                "id": "startapp",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Startapp",
+              },
+              Object {
+                "id": "stripe",
+                "tags": Array [
+                  "commerce",
+                ],
+                "title": "Stripe",
+              },
+              Object {
+                "id": "swrve",
+                "tags": Array [
+                  "marketing-automation",
+                ],
+                "title": "Swrve",
+              },
+              Object {
+                "id": "tapjoy",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Tapjoy",
+              },
+              Object {
+                "id": "tune",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Tune",
+              },
+              Object {
+                "id": "twitter4j",
+                "tags": Array [
+                  "social",
+                ],
+                "title": "Twitter4J",
+              },
+              Object {
+                "id": "unity-ads",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Unity Ads",
+              },
+              Object {
+                "id": "unity3d",
+                "tags": Array [
+                  "development-tool",
+                  "game-engine",
+                ],
+                "title": "Unity3D",
+              },
+              Object {
+                "id": "urban-airship",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Urban Airship",
+              },
+              Object {
+                "id": "vuforia",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Vuforia",
+              },
+              Object {
+                "id": "vungle",
+                "tags": Array [
+                  "ad-network",
+                ],
+                "title": "Vungle",
+              },
+              Object {
+                "id": "wikitude",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Wikitude",
+              },
+              Object {
+                "id": "xamarin-forms",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "Xamarin.Forms",
+              },
+              Object {
+                "id": "yandex-metrica",
+                "tags": Array [
+                  "analytics",
+                ],
+                "title": "Yandex Metrica",
+              },
+              Object {
+                "id": "zxing",
+                "tags": Array [
+                  "development-tool",
+                ],
+                "title": "ZXing",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
